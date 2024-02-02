@@ -1,0 +1,41 @@
+@media (max-width:1024px) {
+    .gallery{
+        grid-template-columns: repeat(3,220px);
+        gap: 10px;
+    }
+    iframe{
+        width: 500px;
+    }
+}
+
+
+@media (max-width:800px) {
+    .gallery{
+        grid-template-columns: repeat(2,200px);
+        gap: 10px;
+    }
+    .card-main{
+        display: flex;
+        flex-direction: column;
+    }
+    .card{
+        width: 80%;
+    }
+    iframe{
+        width: 400px;
+    }
+    }
+
+@media (max-width:572px) {
+    .gallery{
+        grid-template-columns: repeat(1,200px);
+        gap: 5px;
+    }
+    .navbar-collapse{
+        border: 1px solid rgba(0, 0, 0, 0.562);
+        margin: 5px;
+    }
+    iframe{
+        width: 300px;
+    }
+}

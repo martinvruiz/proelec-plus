@@ -1,0 +1,43 @@
+main{
+    width: 90%;
+    margin-top: 90px;
+    margin-bottom: 50px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.card-main{
+    display: grid;
+    grid-template-areas: 
+    'a1 a1'
+    'a2 a3';
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    justify-items: center;
+    padding-bottom: 20px;
+}
+
+
+.a1{
+    grid-area: a1;
+}
+
+.a2{
+    grid-area: a2;
+}
+
+.a3{
+    grid-area: a3;
+}
+
+section img{
+    width: 80%;
+    height: 300px;
+    object-fit: scale-down;
+}

@@ -1,0 +1,32 @@
+nav{
+    background-color: #273bf0;
+    height: 70px;
+    width: 100%;
+    z-index: 4;
+    border: 0.5px solid rgba(0, 0, 0, 0.432);
+}
+
+.navbar{
+    position: fixed;
+}
+
+li:hover{
+    background-color: rgb(0, 0, 128);
+    border: 1px solid black;
+}
+
+.nav-link{
+    font-size: 20px;
+    color: white;
+}
+
+.navbar-collapse{
+    background-color: #273bf0;
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+}
+
+.navbar-toggler{
+    background-color: white;
+}
