@@ -4,11 +4,11 @@ section .btn{
 }
 
 .btn-primary{
-    background-color: #3ed138;
+    background-color: #25d366;
 }
 
-.btn-primary:hover{
-    background-color: #2ea72a;
+.btn-secondary{
+    background-color: $btn-color-main;
 }
 
 .form-section{
