@@ -1,5 +1,13 @@
 $color-primary: #4E62D4;
-$background-color: #B3BCED;
+$background-color: #b3bced;
+$border-color: #4d4d4d;
 
 $btn-color-main: #1d1d1d;
 $btn-wpp: #25d366;
+
+
+@mixin flex-c{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

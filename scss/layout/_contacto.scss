@@ -12,9 +12,7 @@ section .btn{
 }
 
 .form-section{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    @include flex-c;
     width: 100%;
 }
 
@@ -24,8 +22,7 @@ section .btn{
 
 
 .form-section{
-    display: flex;
-    flex-direction: column;
+    @include flex-c;
     align-items: center;
     width: 100%;
 }

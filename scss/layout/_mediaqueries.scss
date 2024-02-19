@@ -6,6 +6,20 @@
     iframe{
         width: 500px;
     }
+    .card{
+        width: 90%;
+    }
+    .card-us{
+        flex-direction: column;
+        align-items: center;
+        img{
+            width: 90%  ;
+        }
+        text-align: center;
+    }
+    .main-image-text{
+        font-size: 40px;
+    }
 }
 
 
@@ -19,12 +33,15 @@
         flex-direction: column;
     }
     .card{
-        width: 80%;
+        width: 90%;
     }
     iframe{
         width: 400px;
     }
+    .main-image-text{
+        font-size: 30px;
     }
+}
 
 @media (max-width:572px) {
     .gallery{
@@ -37,5 +54,11 @@
     }
     iframe{
         width: 300px;
+    }
+    .main-image-text{
+        font-size: 20px;
+    }
+    .card-secondary{
+        height: 850px;
     }
 }
