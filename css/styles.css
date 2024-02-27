@@ -326,7 +326,7 @@ iframe {
     flex-direction: column;
   }
   .card {
-    width: 90%;
+    width: 95%;
   }
   iframe {
     width: 400px;
@@ -349,6 +349,9 @@ iframe {
   }
   .main-image-text {
     font-size: 20px;
+  }
+  .card-secondary {
+    height: 900px;
   }
 }
 
