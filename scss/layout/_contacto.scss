@@ -1,14 +1,33 @@
 
 section .btn{
-    margin: 10px;
+    margin: 2px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
 }
 
 .btn-primary{
     background-color: #25d366;
+    &:hover{
+        background-color: #188026;
+    }
 }
 
 .btn-secondary{
+    background-color: #833AB4;
+    &:hover{
+        background-color: #451e5f;
+    }
+}
+
+.btn-forms{
     background-color: $btn-color-main;
+    color: white;
+    &:hover{
+        background-color: rgba(0, 0, 0, 0.486);
+    }
 }
 
 .form-section{

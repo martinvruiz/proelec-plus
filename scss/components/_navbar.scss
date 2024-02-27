@@ -14,7 +14,7 @@ nav{
 }
 
 li:hover{
-    background-color: #0000a7;
+    background-color: #0000a79c;
     border: 1px solid $border-color;
 }
 
@@ -35,4 +35,9 @@ li:hover{
 
 .navbar-toggler{
     background-color: white;
+}
+
+.navbar-nav{
+    justify-content: center;
+    width: 100%;
 }
